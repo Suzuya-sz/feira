@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: #d6d5cc;
+    color: #222;
+}
+
+/* Layout principal */
+.hero {
+    display: flex;
+    height: 100vh;
+}
+
+/* Painel esquerdo */
+.left-panel {
+    flex: 1;
+    background-color: #2c473e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-panel img {
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Painel direito */
+.right-panel {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+
+.right-panel a {
+    background-color: #2c473e;
+    border-radius: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: 'Times New Roman', serif;
+}
+
+.right-panel a:hover {
+    text-decoration: underline;
+    box-shadow: #2c473e 0px 0px 10px;
+}
+
+/* Texto */
+.subtitulo {
+    font-style: italic;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 90px;
+    letter-spacing: 5px;
+    font-family: 'Times New Roman', serif;
+    margin: 0 20px;
+}
+
+/* Container do título com agulhas */
+.titulo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.agulha {
+    width: 100px;
+    height: auto;
+}
+
+.slogan {
+    margin-top: 10px;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
