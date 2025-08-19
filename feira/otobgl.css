@@ -1,0 +1,93 @@
+
+
+@font-face {
+  font-family: 'fonte'; 
+  src: url('/fontes/Spongeboy\ Me\ Bob.ttf') format('truetype'); 
+  font-weight: normal; 
+  font-style: normal; 
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  font-family: 'fonte', sans-serif;
+}
+body {
+    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('/images/NLAS_SPONGEBOB_333_V2_565996_1920x1080.jpg');
+}
+
+
+section {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 32px 24px;
+    background: #c5eedddc;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    text-align: center;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+section h1 {
+    color: #10ac25;
+    margin-bottom: 12px;
+    font-size: 2rem;
+}
+
+section p {
+    color: #56bb2e;
+    margin-bottom: 24px;
+    font-size: 1.1rem;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 24px;
+}
+
+section li {
+    margin: 12px 0;
+}
+
+section a {
+    color: #3f3e3e;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+section a:hover {
+    color: #117a65;
+    text-decoration: underline;
+}
+
+#balde {
+    width: 120px;   /* ajuste o valor conforme desejar */
+    height: auto;   /* mantém a proporção da imagem */
+    margin: 12px 0;
+}
+
+ #biscoito {
+    width: 120px;   /* ajuste o valor conforme desejar */
+    height: 120px;   /* mantém a proporção da imagem */
+    margin: 12px 0;
+}
+
+.container-sections {
+    display: flex;
+    justify-content: center;
+    gap: 32px; /* Espaço entre as sections */
+    margin-top: 24px;
+}
+
+#hamburguer {
+    width: 160px;   /* ajuste o valor conforme desejar */
+    height: auto;   /* mantém a proporção da imagem */
+    margin: 12px 0;
+}
